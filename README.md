@@ -24,6 +24,30 @@ My name is **Alexis** and I am a Physics PhD with a passion for Data and Basebal
 [![text](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/alexisdlc/)
 [![text](https://img.shields.io/badge/X-000000?style=for-the-badge&logo=x&logoColor=white)](https://x.com/PinstripesFr)
 
+# Tools I Used
+
+To develop this project, I used three main tools:
+
+* **Python**: I used Python in order to query the MLB API through the [PyBaseball](https://github.com/jldbc/pybaseball/tree/master/pybaseball) package, gather and pre-process the data which was then stored in CSV files. The code for this first step is not included in this repository.
+* **SQL**: Then, I used SQL to build a simple data warehouse with multiple layers to load, process, transform and clean the tables. The code for this step is the core content of this repository.
+* **Power BI**: Finally, I loaded the database final layer into PowerBI and used Power Query and Dax to build several pages of an interactive dashboard allowing users to explore the data in different ways. The Power BI file is provided in the repository.
+
+# Data Warehouse Structure
+
+The Data Warehouse was built in SQL using *SQL Server*, and in the *"Medaillon Structure"*.
+
+## Bronze Layer
+
+The **_Bronze Layer_** is used to load the unprocessed data from the source CSV files, with no transformations. The data is stored in tables using the *"Truncate and Insert"* method and no data model is applied at that stage.
+
+## Silver Layer
+
+The **_Silver Layer_** is used to store clean, processed and transformed data. The data is loaded using the *"Truncate and Insert"* method from the Bronze Layer. The data is stored in tables, cleaned, normalized, enriched and standardized.
+
+## Gold Layer
+
+The **_Gold Layer_** is the final layer of the Data Warehouse, with ready to use data for reporting and analytics. The data is stored in Views, with a Star Schema Model.
+
 
 
 
