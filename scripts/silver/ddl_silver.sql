@@ -159,6 +159,8 @@ CREATE TABLE silver.pitch_data_filtered_pitchers (
 	intercept_point_y_batter_inches		FLOAT,
 	launch_speed_angle_category			INT,
 	projected_hit_distance				INT,
+	hit_location_x						FLOAT,
+	hit_location_y						FLOAT,
 	pitch_result_short					NVARCHAR(50),
 	pitch_result_description			NVARCHAR(50),
 	batted_ball_type					NVARCHAR(50),
