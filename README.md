@@ -54,4 +54,17 @@ The **_Gold Layer_** is the final layer of the Data Warehouse, with ready to use
 
 The dashboards were built by connecting and loading the **_Gold Layer_** to **Power BI**. Power Query was used to transform some of the data (translating some terms to French for example) and DAX was used as well to build Measures allowing for a responsive experience.
 
-The **Power BI** file is provided in the repository, and contains several pages. It can also be accessed using this link: [Dashboard](https://tinyurl.com/NYYDashboard)
+The **Power BI** file is provided in the repository, and contains several pages. It can also be accessed using this link: [Dashboard hcange link](changelink)
+
+## Batter Overview
+![Screenshot of the Dashboard Page, "Batter Overview"](/assets/BatterOverviewv2.PNG)
+
+This page of the dashboard presents an overview of Yankees Batter data and is composed of the following sections:
+
+**Reminder:** The statistics presented are only for games in the period 2015-2025, and only for games played <ins>_with_</ins> the New York Yankees.
+
+* **Selection Panel**: Panel with a slicer where a player can be selected, as well as slicers to focus on specific years (played with the Yankees), opponents and game type (regular season, playoffs, ...). The panel also presents overall data: Player Picture, Number of Games, At Bats,  Hits, Home Runs, Batting Average, Slugging and the Number of Pitches included in the analysis presented in the rest of the dashboard.
+* **Pitch By Pitch Global Analysis**: Panel with a table presenting the performance of the player against each pitch type he faced. The metrics included in the panel are the total number of pitches of each type faced, the percentage it represents among the total of pitches faced by the batter, the number of plate appearances and at bats which ended against each pitch, the batting average and slugging against each pitch, the number of home runs hit against each pich, the whiff and strikeout rates against each pitch and the wOBA (weighted On Base Average) and Run Value of the batter against each pitch.
+* **Pitch Focus**: Panel with a focus on one specific pitch. A slicer allows the selection of one pitch, and the table underneath presents the same metrics than what is shown in the _Pitch By Pitch Global Analysis_ but this time with a year by year breakdown. Another slicer is present to select one of the statistics, whose year over year evolution will be presented in the plot next to the table.
+* **Situational Hitting**: Panel presenting several tables to analyse the performance of a batter in different situations. The statistic presented in the tables is selected with a slicer at the top of the panel, and it can also be refined by eventually selecting a pitch to focus on. There are three tables, breaking down different situations: number of outs, number of runners on base, runners in scoring position, with the Yankees leading or not, at home or away and the handedness of the pitcher.
+* **Performance vs At Bat Count**: Panel containing a histogram, presenting the performance of the batter in different at bat counts, measured by the number of hits and several averages.
