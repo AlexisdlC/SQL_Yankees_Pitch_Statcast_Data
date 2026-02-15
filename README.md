@@ -48,6 +48,6 @@ The **_Silver Layer_** is used to store clean, processed and transformed data. T
 
 The **_Gold Layer_** is the final layer of the Data Warehouse, with ready to use data for reporting and analytics. The data is stored in Views, with a Star Schema Model.
 
-
+![Architecture of the model of the Gold Layer](/assets/DataModel.png)
 
 
