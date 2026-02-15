@@ -345,6 +345,8 @@ BEGIN
 		intercept_point_y_batter_inches,
 		launch_speed_angle_category,
 		projected_hit_distance,
+		hit_location_x,
+		hit_location_y,
 		pitch_result_short,
 		pitch_result_description,
 		batted_ball_type,
@@ -432,6 +434,8 @@ BEGIN
 		intercept_ball_minus_batter_pos_y_inches AS intercept_point_y_batter_inches,
 		launch_speed_angle AS launch_speed_angle_category,
 		hit_distance_sc AS projected_hit_distance,
+		hc_x AS hit_location_x,
+		hc_y AS hit_location_y,
 		type_ AS pitch_result_short,
 		description_ AS pitch_result_description,
 		-- Treat nulls in batted_ball_type and pitch_event as 'n/a'
