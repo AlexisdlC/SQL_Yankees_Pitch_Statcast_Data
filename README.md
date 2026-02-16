@@ -83,3 +83,11 @@ This page of the dashboard presents head to head data of a Yankees' batter again
 
 ## Pitcher Overview
 ![Screenshot of the Dashboard Page, "Pitcher Overview"](/assets/PitcherOverview.PNG)
+
+This page of the dashboard presents an overview of Yankees Pitcher data and is composed of the following sections:
+
+**!Reminder:!** The statistics presented are only for games in the period 2015-2025, and only for games played <ins>_with_</ins> the New York Yankees.
+
+* **Selection Panel**:  Panel with a slicer where a player can be selected, as well as slicers to focus on specific years (played with the Yankees), and game type (regular season, playoffs, ...). The panel also indicates the total number of pitches included in the data presented in the rest of dashboard, as well as diagram indicating whether the pitcher is left handed or right handed, as well as the average arm angle at which he throws his pitches.
+* **Pitch By Pitch Global Analysis**: Panel containing a table reporting the global statistics of the pitcher's full arsenal. The metrics include the usage of each pitch (number and percentage), the speed and spin rate of each pitch, the movement of each pitch (vertical (total and induced) and horizontal), batters' statistics against each pitch (batting average, sluggging, weighted On Base Average, whiff percentage, and strikeout percentage).
+* **Pitch Focus**:
