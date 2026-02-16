@@ -90,4 +90,18 @@ This page of the dashboard presents an overview of Yankees Pitcher data and is c
 
 * **Selection Panel**:  Panel with a slicer where a player can be selected, as well as slicers to focus on specific years (played with the Yankees), and game type (regular season, playoffs, ...). The panel also indicates the total number of pitches included in the data presented in the rest of dashboard, as well as diagram indicating whether the pitcher is left handed or right handed, as well as the average arm angle at which he throws his pitches.
 * **Pitch By Pitch Global Analysis**: Panel containing a table reporting the global statistics of the pitcher's full arsenal. The metrics include the usage of each pitch (number and percentage), the speed and spin rate of each pitch, the movement of each pitch (vertical (total and induced) and horizontal), batters' statistics against each pitch (batting average, sluggging, weighted On Base Average, whiff percentage, and strikeout percentage).
-* **Pitch Focus**:
+* **Pitch Focus**: Panel with a focus on one specific pitch. A slicer allows the selection of one pitch, and the table underneath presents the same metrics than what is shown in the _Pitch By Pitch Global Analysis_ but this time with a year by year breakdown. Another slicer is present to select one of the statistics, whose year over year evolution will be presented in the plot next to the table.
+* **Situational Pitch Choice**: Panel presenting a global view of the pitch selection of the pitcher when facing a certain count in the plate appearance.
+* **Pitch Movements**: Panel containing a scatter plot with each individual pitch horizontal and vertical break values. This makes a map of the range of movement achieved by a pitcher's arsenal.
+
+## Pitcher Head To Head
+![Screenshot of the Dashboard Page, "Batter Head To Head"](/assets/PitcherH2H.PNG)
+
+This page of the dashboard presents head to head data of a Yankees' pitcher against a selected opposing batter (<ins>Note:</ins> it is possible to select multiple opposing batter to see the combined performance of one batter against multiple pitchers. However, only one batter can be selected). The page is compose of the following sections:
+
+**!Reminder:!** The statistics presented are only for games in the period 2015-2025, and only for games the batter played <ins>_with_</ins> the New York Yankees.
+
+* **Selection Panels**: Two panels at the top allow for the selection of a NYY pitcher and opposing batter(s).
+* **Head to Head Data**: At the center of the page, a table summarizes the head to head data of tthe Yankees' pitcher against the selected batter(s). It shows the number of pitches, at bats, hits, home runs, strikeouts, run value and averages.
+* **Pitch Strikzone Location**: Scatter plot showing the location of every pitch from the chosen pitcher(s) thrown to the selected batter. The color highlights the type of pitch thrown, and hovering each point gives tooltips such as the velocity of the pitch thrown. Horizontal and vertical lines highight the location of the strikezone. The horizontal lines adjust depending on the selected batter.
+* **Batted Ball In Play Location**: Scatter plot showing the landing location of each pitch which ended in a batted ball in play. The color indicates the result of the batted ball (field_out, single, home run, ...), and tool tips give informations such as the projected hit distance. A baseball field is used as a background to highlight the hit location within a ball park, but it is worth noting that the image used is one of a standard baseball field, and does not represent an accurate position, especially with regards to the outfield walls (you can note some home runs look like they are not out of the park, but this is simply due to the fact that the dimensions of the ballpark in the image differ from the actual ballpark it was hit in).
