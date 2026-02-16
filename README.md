@@ -82,7 +82,7 @@ This page of the dashboard presents head to head data of a Yankees' batter again
 * **Batted Ball In Play Location**: Scatter plot showing the landing location of each pitch which ended in a batted ball in play. The color indicates the result of the batted ball (field_out, single, home run, ...), and tool tips give informations such as the projected hit distance. A baseball field is used as a background to highlight the hit location within a ball park, but it is worth noting that the image used is one of a standard baseball field, and does not represent an accurate position, especially with regards to the outfield walls (you can note some home runs look like they are not out of the park, but this is simply due to the fact that the dimensions of the ballpark in the image differ from the actual ballpark it was hit in).
 
 ## Pitcher Overview
-![Screenshot of the Dashboard Page, "Pitcher Overview"](/assets/PitcherOverview.PNG)
+![Screenshot of the Dashboard Page, "Pitcher Overview"](/assets/PitcherOverviewv2.PNG)
 
 This page of the dashboard presents an overview of Yankees Pitcher data and is composed of the following sections:
 
