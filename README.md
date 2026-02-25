@@ -54,7 +54,7 @@ The **_Gold Layer_** is the final layer of the Data Warehouse, with ready to use
 
 The dashboards were built by connecting and loading the **_Gold Layer_** to **Power BI**. Power Query was used to transform some of the data (translating some terms to French for example) and DAX was used as well to build Measures allowing for a responsive experience.
 
-The **Power BI** file is not provided in the repository (too large)but it can be accessed using this link: [Dashboard](https://tinyurl.com/NYYPitchDashboard)
+The **Power BI** file is not provided in the repository (too large)but it can be accessed using this link: [Dashboard](https://tinyurl.com/NYYPitchDashboardv2)
 
 ## Batter Overview
 ![Screenshot of the Dashboard Page, "Batter Overview"](/assets/BatterOverviewv2.PNG)
